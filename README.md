@@ -1,4 +1,4 @@
-# RDG: Robust Dexterous Grasping of General Objects from Single-view Perception
+# RobustDexGrasp: Robust Dexterous Grasping of General Objects from Single-view Perception
 
 ## [Paper](https://arxiv.org/abs/2504.05287) | [Project Page](https://zdchan.github.io/Robust_DexGrasp/) 
 
@@ -14,7 +14,7 @@ To cite us, please use the following:
 
 ```bibtex
 @article{zhang2025RobustDexGrasp,
-  title={Robust Dexterous Grasping of General Objects from Single-view Perception},
+  title={{RobustDexGrasp}: Robust Dexterous Grasping of General Objects from Single-view Perception},
   author={Zhang, Hui and Wu, Zijian and Huang, Linyi and Christen, Sammy and Song, Jie},
   journal={arXiv preprint arXiv:2504.05287},
   year={2025}
