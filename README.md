@@ -1,4 +1,4 @@
-# RobustDexGrasp: Robust Dexterous Grasping of General Objects
+# Robust Dexterous Grasping of General Objects
 
 ## [Paper](https://arxiv.org/abs/2504.05287) | [Project Page](https://zdchan.github.io/Robust_DexGrasp/) 
 
