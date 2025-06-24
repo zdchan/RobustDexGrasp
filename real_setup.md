@@ -52,7 +52,7 @@ cd allegro_hand_linux_v4/LibBHand_64 && make && sudo make install
 ```
 
 # compile
-change the cmake flag in raisimGymTorch/CMakeLists.txt[this folder](./raisimGymTorch/CMakeLists.txt).  to build the hardware layer
+change the cmake flag in [this folder](./raisimGymTorch/CMakeLists.txt).  to build the hardware layer
 
 set(BUILD_UR5_REAL          ON)
 
