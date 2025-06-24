@@ -1,0 +1,40 @@
+error logs 
+System.AggregateException: One or more errors occurred. (Unable to read data from the transport connection: Connection reset by peer.) ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   --- End of inner exception stack trace ---
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException (System.Net.Sockets.SocketError error) [0x00007] in <03987742539642828d869334a9b28b43>:0 
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.GetResult (System.Int16 token) [0x00022] in <03987742539642828d869334a9b28b43>:0 
+  at System.Threading.Tasks.ValueTask`1+ValueTaskSourceAsTask+<>c[TResult].<.cctor>b__4_0 (System.Object state) [0x00030] in <e307bbb467104258887a104f6151f183>:0 
+   --- End of inner exception stack trace ---
+  at System.Threading.Tasks.Task.ThrowIfExceptional (System.Boolean includeTaskCanceledExceptions) [0x00011] in <e307bbb467104258887a104f6151f183>:0 
+  at System.Threading.Tasks.Task`1[TResult].GetResultCore (System.Boolean waitCompletionNotification) [0x0002b] in <e307bbb467104258887a104f6151f183>:0 
+  at System.Threading.Tasks.Task`1[TResult].get_Result () [0x0000f] in <e307bbb467104258887a104f6151f183>:0 
+  at raisimUnity.TcpHelper.ReadData () [0x00044] in <734c09ac709f447cbdbddcb6fa2e2e07>:0 
+  at raisimUnity.RsUnityRemote.Update () [0x00893] in <734c09ac709f447cbdbddcb6fa2e2e07>:0 
+---> (Inner Exception #0) System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   --- End of inner exception stack trace ---
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException (System.Net.Sockets.SocketError error) [0x00007] in <03987742539642828d869334a9b28b43>:0 
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.GetResult (System.Int16 token) [0x00022] in <03987742539642828d869334a9b28b43>:0 
+  at System.Threading.Tasks.ValueTask`1+ValueTaskSourceAsTask+<>c[TResult].<.cctor>b__4_0 (System.Object state) [0x00030] in <e307bbb467104258887a104f6151f183>:0 <---
+
+ 
+
+System.AggregateException: One or more errors occurred. (Unable to read data from the transport connection: Connection reset by peer.) ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   --- End of inner exception stack trace ---
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException (System.Net.Sockets.SocketError error) [0x00007] in <03987742539642828d869334a9b28b43>:0 
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.GetResult (System.Int16 token) [0x00022] in <03987742539642828d869334a9b28b43>:0 
+  at System.Threading.Tasks.ValueTask`1+ValueTaskSourceAsTask+<>c[TResult].<.cctor>b__4_0 (System.Object state) [0x00030] in <e307bbb467104258887a104f6151f183>:0 
+   --- End of inner exception stack trace ---
+  at System.Threading.Tasks.Task.ThrowIfExceptional (System.Boolean includeTaskCanceledExceptions) [0x00011] in <e307bbb467104258887a104f6151f183>:0 
+  at System.Threading.Tasks.Task`1[TResult].GetResultCore (System.Boolean waitCompletionNotification) [0x0002b] in <e307bbb467104258887a104f6151f183>:0 
+  at System.Threading.Tasks.Task`1[TResult].get_Result () [0x0000f] in <e307bbb467104258887a104f6151f183>:0 
+  at raisimUnity.TcpHelper.ReadData () [0x00044] in <734c09ac709f447cbdbddcb6fa2e2e07>:0 
+  at raisimUnity.RsUnityRemote.ReadAndCheckServer (raisimUnity.ClientMessageType type) [0x000a0] in <734c09ac709f447cbdbddcb6fa2e2e07>:0 
+  at raisimUnity.RsUnityRemote.Update () [0x00023] in <734c09ac709f447cbdbddcb6fa2e2e07>:0 
+---> (Inner Exception #0) System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   --- End of inner exception stack trace ---
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException (System.Net.Sockets.SocketError error) [0x00007] in <03987742539642828d869334a9b28b43>:0 
+  at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.GetResult (System.Int16 token) [0x00022] in <03987742539642828d869334a9b28b43>:0 
+  at System.Threading.Tasks.ValueTask`1+ValueTaskSourceAsTask+<>c[TResult].<.cctor>b__4_0 (System.Object state) [0x00030] in <e307bbb467104258887a104f6151f183>:0 <---
+
+ 
+

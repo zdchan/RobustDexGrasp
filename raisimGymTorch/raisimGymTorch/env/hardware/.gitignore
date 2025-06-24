@@ -1,0 +1,7 @@
+test/
+sam/out/*
+sam/__pycache__/
+sam/sam_vit_h_4b8939.pth
+log_data/csv/*
+log_data/npz/*
+log_data/other/*
