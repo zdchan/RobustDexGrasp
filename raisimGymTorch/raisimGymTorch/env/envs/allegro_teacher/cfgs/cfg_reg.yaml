@@ -29,7 +29,7 @@ environment:
     # Friction coefficient of the table surface
     table_friction: 0.2
     # Grasping frame position in hand frame
-    hand_center: [0.0, 0.0, 0.0]
+    hand_center: [-0.0091, 0.0, -0.095]
 
   # Enable biased point cloud observation
   biased: False

@@ -28,7 +28,7 @@ environment:
     # Friction coefficient of the table surface
     table_friction: 0.2
     # Grasping frame position in hand frame
-    hand_center: [0.08, 0.01, 0.095]
+    hand_center: [-0.0091, 0.0, -0.095]
 
     # Random friction values to sample from during domain randomization
     randomize_friction: "0.5,0.6,0.7,0.8,0.9"
