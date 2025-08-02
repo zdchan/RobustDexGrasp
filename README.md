@@ -95,12 +95,12 @@ You can indicate the objects or the objectives of the generated motions in the v
 To cite us, please use the following:
 
 ```bibtex
-@article{zhang2025RobustDexGrasp,
-  title={{RobustDexGrasp}: Robust Dexterous Grasping of General Objects},
-  author={Zhang, Hui and Wu, Zijian and Huang, Linyi and Christen, Sammy and Song, Jie},
-  journal={arXiv preprint arXiv:2504.05287},
-  year={2025}
-}
+@inproceedings{zhang2025RobustDexGrasp,
+    title={{RobustDexGrasp}: Robust Dexterous Grasping of General Objects},
+    author={Zhang, Hui and Wu, Zijian and Huang, Linyi and Christen, Sammy and Song, Jie},
+    booktitle={Conference on Robot Learning (CoRL)},
+    year={2025}
+  }
 ```
 
 If you utilize the object pre-process script provided by GraspXL for your own objects, please consider cite:
