@@ -3,7 +3,7 @@
 
 ## [Paper](https://arxiv.org/abs/2504.05287) | [Project Page](https://zdchan.github.io/Robust_DexGrasp/) 
 
-<img src="/teaser.gif" autoplay loop /> 
+<img src="/RobustDexGrasp_application.gif" autoplay loop /> 
 
 ### Contents
 
